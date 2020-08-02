@@ -294,6 +294,9 @@ textarea:focus + label {
   .button-row {
     display: none;
   }
+  .button-row-mobile {
+    display: block;
+  }
   .center-50 {
     margin: 0 auto;
     padding-bottom: 25px;
