@@ -2,7 +2,8 @@
   $(function () {
 
     $('.sidenav').sidenav({
-      edge: "right"
+      edge: "right",
+      closeOnClick: true
     });
     $('.parallax').parallax();
     $('.carousel').carousel({
