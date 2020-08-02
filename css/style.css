@@ -316,6 +316,9 @@ textarea:focus + label {
   h3 {
     font-size: 1.4rem;
   }
+  #about h3 {
+    font-size: 1.75rem;
+  }
   .row.center.cta a {
     font-size: 0.75rem;
   }
