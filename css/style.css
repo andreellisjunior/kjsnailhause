@@ -110,14 +110,12 @@ p {
 .parallax-container .section {
   width: 100%;
 }
-.cta {
-  /* display: flex;
-  justify-content: space-between;
-  width: 88%;
-  max-width: 400px; */
-}
+
 .row.cta::after {
   content: none;
+}
+a.crt-logo.crt-tag {
+  display: none !important;
 }
 
 /* hero parallax */
