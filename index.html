@@ -51,6 +51,7 @@
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
+          <li class="menu-header"><span>MENU</span><a id="close-nav" class="sidenav-close">X</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#services">SERVICES</a></li>
           <li><a href="#contact">CONTACT</a></li>
@@ -60,7 +61,7 @@
             >
           </li>
         </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger right"
           ><i class="material-icons">menu</i></a
         >
       </div>
@@ -78,7 +79,7 @@
               Feel as good as they look.
             </h3>
           </div>
-          <div class="row center cta">
+          <div class="row center cta flex-col-reverse">
             <a
               href="#about"
               id="download-button"
@@ -106,8 +107,8 @@
         <div class="row">
           <div class="col s12"><h2>Who Am I</h2></div>
         </div>
-        <div class="row valign-wrapper">
-          <div class="col s6">
+        <div class="row valign-wrapper flex-column">
+          <div class="col s12 l6">
             <h3>My Name is Kaitlynn</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -118,6 +119,7 @@
               exercitationem voluptates iure consequuntur vel eum? Deserunt, ea
               saepe.
             </p>
+            <div class="button-row">
             <a
             href="#gallery"
             id="download-button"
@@ -131,14 +133,30 @@
             target="_blank"
             >Schedule An Appointment</a
           >
+        </div>
           </div>
-          <div class="col s6 valign-wrapper">
+          <div class="col s12 l6 valign-wrapper">
             <img
               src="kj2.JPG"
               alt=""
               class="responsive-img center-50"
             />
           </div>
+          <div class="button-row-mobile flex-col-reverse">
+            <a
+            href="#gallery"
+            id="download-button"
+            class="btn waves-effect waves-light alt-btn"
+            >View Work</a
+          >
+          <a
+            href="https://calendly.com/kjnailhause"
+            id="download-button"
+            class="btn waves-effect waves-light"
+            target="_blank"
+            >Schedule An Appointment</a
+          >
+        </div>
         </div>
       </div>
     </div>
@@ -148,7 +166,7 @@
       <div id="services" class="container">
         <div class="section center-align">
           <div class="row valign-wrapper">
-            <img src="new-price-list.jpg" class="center-margin" />
+            <img src="updated-price-list.jpg" class="center-margin responsive-img price-list" />
           </div>
           <a
           href="https://calendly.com/kjnailhause"
@@ -208,7 +226,7 @@
               Submit the form and I'll get back to you as soon as possible!
             </p>
           </div>
-          <form class="col s12">
+          <form name="Website Contact Form" netlify class="col s12">
             <div class="row">
               <div class="input-field col s12">
                 <input id="first_name" type="text" class="validate" />

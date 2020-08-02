@@ -1,7 +1,9 @@
 (function ($) {
   $(function () {
 
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({
+      edge: "right"
+    });
     $('.parallax').parallax();
     $('.carousel').carousel({
       duration: 500
