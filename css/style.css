@@ -392,3 +392,7 @@ footer.page-footer .footer-copyright a:hover {
 .policy-link {
   font-size: 12px !important;
 }
+
+.modal .modal-footer a {
+  color: #333 !important;
+}
