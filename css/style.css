@@ -7,6 +7,9 @@
  */
 
 /* Default Styles */
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 100%;
 } /*16px*/
@@ -81,6 +84,9 @@ nav {
   z-index: 9;
   box-shadow: none;
   height: 100px;
+}
+body.interior-page nav {
+  background: #333 !important;
 }
 .primary-logo {
   width: 23rem;
@@ -364,4 +370,17 @@ footer.page-footer .footer-copyright a:hover {
     justify-content: center;
     align-items: center;
   }
+}
+
+/* Interior Pages - Policy Page */
+#about.policy-page {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  max-width: 900px;
+}
+.ul-style li {
+  list-style-type: disc !important;
+}
+.policy-link {
+  font-size: 12px !important;
 }
