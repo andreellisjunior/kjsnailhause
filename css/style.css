@@ -380,6 +380,7 @@ footer.page-footer .footer-copyright a:hover {
 }
 .ul-style li {
   list-style-type: disc !important;
+  text-align: left;
 }
 .policy-link {
   font-size: 12px !important;
