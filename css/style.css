@@ -376,7 +376,9 @@ footer.page-footer .footer-copyright a:hover {
     align-items: center;
   }
 }
-
+.ul-style.modal-popup li {
+  font-size: 12px;
+}
 /* Interior Pages - Policy Page */
 #about.policy-page {
   padding-top: 100px !important;

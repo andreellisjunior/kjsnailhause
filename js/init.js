@@ -9,6 +9,7 @@
     $('.carousel').carousel({
       duration: 500
     });
+    $('.modal').modal();
 
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -20,6 +21,8 @@
         });
       });
     });
+
+    // Prevents link from firing without confirmation
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
