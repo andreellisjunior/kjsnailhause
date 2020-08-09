@@ -26,6 +26,7 @@ p {
 }
 p.diff-ff {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 h1,
