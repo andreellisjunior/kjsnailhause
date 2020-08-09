@@ -393,6 +393,7 @@ footer.page-footer .footer-copyright a:hover {
   font-size: 12px !important;
 }
 
-.modal .modal-footer a {
-  color: #333 !important;
+.modal .modal-footer a:nth-child(2) {
+  color: #fff !important;
+  background: #ff0a65;
 }
