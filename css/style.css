@@ -24,6 +24,9 @@ body {
 p {
   margin-bottom: 1.15rem;
 }
+p.diff-ff {
+  font-family: "Montserrat", sans-serif;
+}
 
 h1,
 h2,
