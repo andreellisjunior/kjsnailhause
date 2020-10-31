@@ -430,6 +430,11 @@ body.hello-page {
 .button-row.flex {
   justify-content: space-between;
 }
+.button-row a {
+  color: #fff;
+  background: #333;
+  padding: 0.2rem 0.5rem;
+}
 #qr-code-section {
   text-align: center;
   max-width: 500px;
