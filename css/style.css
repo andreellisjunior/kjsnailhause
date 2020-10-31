@@ -437,7 +437,7 @@ body.hello-page {
 }
 #qr-code-section h5 {
   font-family: "Autour One", cursive;
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .card {
