@@ -430,7 +430,7 @@ body.hello-page .hero::after {
 .button-row.flex {
   justify-content: space-between;
 }
-.button-row a {
+body.hello-page .button-row a {
   color: #fff;
   background: #333;
   padding: 0.2rem 0.5rem;
