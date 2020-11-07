@@ -408,7 +408,7 @@ footer.page-footer .footer-copyright a:hover {
 body.hello-page {
   background: #fff4f7;
 }
-.hero {
+body.hello-page .hero {
   width: 100%;
   height: 100px;
   background: #333;
@@ -418,7 +418,7 @@ body.hello-page {
   background-position: center; */
   position: relative;
 }
-.hero::after {
+body.hello-page .hero::after {
   content: "";
   position: absolute;
   top: 0;
@@ -500,7 +500,7 @@ body.hello-page {
   color: #fff;
 }
 @media (max-width: 991px) {
-  .hero {
+  body.hello-page .hero {
     height: 65px;
   }
 }
