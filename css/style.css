@@ -131,7 +131,7 @@ a.crt-logo.crt-tag {
 @media (max-width: 767px) {
   .ios-install-popup {
     position: fixed;
-    bottom: 10px;
+    bottom: 20px;
     left: 25%;
     transform: translate(-19%);
     background: #f30965;
@@ -146,6 +146,10 @@ a.crt-logo.crt-tag {
     padding: 10px 20px;
     z-index: 999;
     box-shadow: 0 0 10px #000;
+  }
+  .ios-install-popup p {
+    margin: 0;
+    line-height: 1.5rem;
   }
 }
 
