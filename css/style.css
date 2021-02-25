@@ -128,7 +128,7 @@ a.crt-logo.crt-tag {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .ios-install-popup {
     position: fixed;
     bottom: 20px;
