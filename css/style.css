@@ -127,7 +127,11 @@ p {
 a.crt-logo.crt-tag {
   display: none !important;
 }
-
+@media (min-width: 993px) {
+  .ios-install-popup {
+    display: none;
+  }
+}
 @media (max-width: 992px) {
   .ios-install-popup {
     position: fixed;
@@ -534,4 +538,25 @@ body.hello-page .button-row a {
     display: block;
     font-size: 12px;
   }
+}
+
+/* Notice Alert */
+.notice-alert {
+  text-align: center;
+  background: #ff0a65;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.notice-alert p {
+  margin: 0;
+  padding: 10px 5px;
+  color: white;
+  font-weight: bold;
+}
+li.notice {
+  background: #ff0a65;
+  color: white;
+  padding: 7px;
+  text-align: center;
 }
