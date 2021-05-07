@@ -124,9 +124,6 @@ p {
 .row.cta::after {
   content: none;
 }
-a.crt-logo.crt-tag {
-  display: none !important;
-}
 @media (min-width: 993px) {
   .ios-install-popup {
     display: none;
