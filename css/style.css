@@ -339,12 +339,35 @@ textarea:focus + label {
     flex-direction: column;
   }
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+.social-icons a {
+  margin: 0 2rem;
+}
+.social-icons img {
+  width: auto;
+  height: 60px;
+  padding: 10px;
+  transition: 0.2s all ease;
+}
+.social-icons img:hover {
+  background: pink;
+  border-radius: 50%;
+}
 @media only screen and (max-width: 991px) {
   nav {
     height: auto;
   }
 }
-
+@media (max-width: 767px) {
+  .social-icons a {
+    margin: 0 0.5rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
@@ -556,4 +579,10 @@ li.notice {
   color: white;
   padding: 7px;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .notice-alert p {
+    font-size: 10px;
+    line-height: 1.2rem;
+  }
 }
