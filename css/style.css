@@ -207,6 +207,21 @@ h3.header {
 img.price-list {
   padding: 0 3%;
 }
+img.desktop-view {
+  display: block;
+}
+img.mobile-view {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  img.desktop-view {
+    display: none;
+  }
+  img.mobile-view {
+    display: block;
+  }
+}
 #gallery.container,
 #about.container {
   padding: 50px 0;
@@ -585,4 +600,25 @@ li.notice {
     font-size: 10px;
     line-height: 1.2rem;
   }
+}
+
+/* Address Change Notice */
+.bottom-sheet {
+  background: #ffeb00 !important;
+}
+.bottom-sheet .modal-content {
+  text-align: center;
+}
+.bottom-sheet div {
+  padding: 0 20px !important;
+  margin: 0 !important;
+  height: auto !important;
+  background: transparent !important;
+}
+.bottom-sheet h6 {
+  margin-top: 20px;
+}
+.bottom-sheet p {
+  font-size: 14px;
+  font-weight: bold;
 }

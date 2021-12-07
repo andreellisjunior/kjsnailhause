@@ -10,7 +10,9 @@
       duration: 500
     });
     $('.modal').modal();
-
+    var notice = document.querySelector(".bottom-sheet");
+    var instance = M.Modal.getInstance(notice);
+    instance.open();
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
