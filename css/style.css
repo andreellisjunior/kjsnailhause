@@ -622,3 +622,23 @@ li.notice {
   font-size: 14px;
   font-weight: bold;
 }
+/* Timer styles */
+div#clockDiv > p {
+  margin-bottom: 0;
+}
+div#clockDiv > span {
+  display: inline-block;
+  margin-block-start: 0.5rem;
+  margin-block-end: 1rem;
+}
+/* Sticky timer if needed */
+.sticky-timer {
+  text-align: center;
+  height: 75px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: black;
+  z-index: 9;
+  padding: 0 25px 25px;
+}
