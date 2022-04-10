@@ -26,7 +26,6 @@ p {
 }
 p.diff-ff {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
 }
 
 h1,
@@ -340,6 +339,9 @@ textarea:focus + label {
   .flex-column {
     flex-direction: column;
   }
+  .reverse {
+    flex-direction: column-reverse;
+  }
   .button-row {
     display: none;
   }
@@ -641,4 +643,11 @@ div#clockDiv > span {
   background: black;
   z-index: 9;
   padding: 0 25px 25px;
+}
+.highlight-text {
+  font-weight: bold;
+  font-style: italic;
+}
+.acrylic {
+  background: #f6f6f6;
 }
